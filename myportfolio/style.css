@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{
+    height: 100%;
+    width: 100%;
+}
+
+#header
+{
+    height: 15%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+#fakeheader {
+    height: 15%;
+    width: 100%;
+}
+
+#page1 {
+    height: 90%;
+    width: 100%;
+    background-color: white;
+}
+
+#page2 {
+    height: 90%;
+    width: 100%;
+    background-color: white;
+}
+
+.texts
+{
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+.texts:hover
+{
+    color: blue;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+

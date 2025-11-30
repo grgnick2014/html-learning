@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.texts
+{
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    height: 15%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;  
+    margin: 0%;  
+    position: fixed;
+}
+
+#fakeheader {
+    height: 80px;
+    width: 100%;
+}
+
+#page1 {
+    height: 90%;
+    width: 100%;
+    background-color: white;
+}
+
+#page2 {
+    height: 90%;
+    width: 100%;
+    background-color: white;
+}
